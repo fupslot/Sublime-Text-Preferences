@@ -1,0 +1,6 @@
+[
+	{ "keys": ["super+ctrl+,"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
+	{ "keys": ["super+,"], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/eolcomma.sublime-macro"} },
+	{ "keys": ["super+."], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/eolperiod.sublime-macro"} },
+	{ "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/eolsemicolon.sublime-macro"} }
+]
