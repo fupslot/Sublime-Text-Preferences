@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+(function  (angular) {
+    'use strict';
+
+    angular.module('${1}')
+    .directory('${2}', ${2}Fn);
+
+    function ${2}Fn() {
+        var factory = {};
+
+        factory.strict  = 'E';
+        factory.replace = 'true';
+        // factory.require = '';
+        // factory.transclude = true;
+        // factory.scope = {};
+
+        factory.compile = function (el, attrs) {
+            this.link;
+        };
+
+        factory.link = function (scope, el, attrs) {
+
+        };
+
+        return factory;
+    }
+
+    ${2}Fn.$inject = [];
+}(window.angular));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>directive</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

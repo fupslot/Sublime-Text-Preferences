@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+(function($1, \$) {
+	'use strict';
+
+	\$.extend($1, {
+		${2}
+	});
+})(window.${1:object} = window.$1 || {}, jQuery);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>saj</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

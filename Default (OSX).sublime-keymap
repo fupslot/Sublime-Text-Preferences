@@ -1,6 +1,23 @@
 [
 	{ "keys": ["super+ctrl+,"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
+
+  { "keys": ["super+b"], "command": "build" },
+  { "keys": ["super+shift+b"], "command": "exec", "args": {"kill": true} },
+  { "keys": ["shift+ctrl+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/eolsemicolon.sublime-macro"} },
+
+  { "keys": ["ctrl+,"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/eolcomman.sublime-macro"} },
+
+  { "keys": ["super+'"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/eolquote.sublime-macro"} },
 	{ "keys": ["super+,"], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/eolcomma.sublime-macro"} },
 	{ "keys": ["super+."], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/eolperiod.sublime-macro"} },
-	{ "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/eolsemicolon.sublime-macro"} }
+	{ "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/eolsemicolon.sublime-macro"} },
+
+  { "keys": ["super+\\"], "command": "insert_snippet", "args": {"contents": "\"$1\": \"$2\""} },
+  { "keys": ["super+shift+\\"], "command": "insert_snippet", "args": {"contents": "'$1': '$2'"} },
+
+  { "keys": ["super+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/eolcolon.sublime-macro"} },
+
+  { "keys": ["super+alt+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+  { "keys": ["super+ctrl+l"], "command": "angularjs_find" },
+  { "keys": ["super+ctrl+alt+l"], "command": "angularjs_go_to_definition" }
 ]
